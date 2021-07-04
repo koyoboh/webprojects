@@ -1,0 +1,321 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Khula;
+	
+	background-color: #000;
+	color: #f2f2f2;
+}
+
+.topnav {
+	background-color: #000;
+	overflow: hidden;
+}
+
+.headerlogo {
+	width: 100%;
+	height: auto;
+	
+	background-color: #000;
+}
+
+.topnav a {
+
+	text-decoration: none;
+	text-align: left;
+	padding: 15px 15px;
+	font-size: 15px;
+	color: #797b54;
+	display: block;
+	float: left;
+}
+
+.topnav a:hover{
+	color: #38a302;
+	background-color: #000;
+}
+
+
+.topnav a.active {
+	background-color: #191919;
+	color: #38a302;
+}
+
+.topnav a.active:hover {
+	background-color: #38a302;
+	color: #fff;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+.dropdown {
+	overflow: hidden;
+	float: left;
+
+}
+
+.dropdown .dropbtn {
+	margin: 0;
+	outline: none;
+	border: none;
+	padding: 15px 15px;
+	font-size: 15px;
+	font-family: inherit;
+	background-color: #fff;
+	color: #000;
+
+}
+
+
+.dropdown-content {
+	min-width: 160px;
+	z-index: 1;
+	box-shadow: 0px, 5px, 10px, 0;
+	display: none;
+	position: absolute;
+
+
+}
+
+.dropdown-content a {
+	float: none;
+	text-align: left;
+	text-decoration: none;
+	padding: 15px 15px;
+	display: block;
+	background-color: #fff;
+	color: #000;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+
+}
+
+@media screen and (max-width: 700px) {
+	.topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
+	.topnav a.icon {
+		display: block;
+		float: right;
+	}
+
+	@media screen and (max-width: 700px) {
+		.topnav.responsive {position: relative;}
+		.topnav.responsive .icon {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.topnav.responsive a{
+			display: block;
+			text-align: left;
+			float: none;
+		}
+		.topnav.responsive .dropndown {flex: none;}
+		.topnav.responsive .dropdown-content {position: relative;}
+		.topnav.responsive .dropdown .dropbtn {
+			width: 100%;
+			text-align: left;
+			display: block;
+
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.row , .footer-row {
+		display: block;
+		flex-direction: column;
+
+	}
+}
+
+.header-logo:hover {
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.header-banner {
+	background-color: #fff;
+	color: #191919;
+	text-align: center;
+	position: sticky; top: 0px;
+	
+}
+
+.header-banner a:hover {
+	opacity: 0.6;
+
+}
+
+
+.sixp a {
+	text-decoration: none;
+	color: #000;
+}
+
+.sixp a:hover {
+	
+	opacity: 0.7;
+
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px;
+	background-color: #191919;
+}
+.row li{
+	list-style: none;
+}
+
+.row  h1{
+	color: #797b54;
+}
+
+.videolink{
+	z-index: 1;
+}
+.videobtn {
+	outline: none;
+}
+.innerpic {
+	background-color: #000;
+	max-width: 100%;
+	
+	height: auto;
+}
+
+.innerpic-main {
+	background-color: #000;
+	max-width: 100%;
+	height: auto;
+}
+
+.innerlink{
+	text-decoration: none;
+	color: #38a302;
+	cursor: pointer;
+}
+
+.innerlink:hover{
+	opacity: 0.4;
+}
+.side {
+	flex: 25%;
+	float: right;
+	padding: 5px;
+	text-align: left;
+
+}
+
+
+.main {
+	flex: 75%;
+	text-align: left;
+	padding: 5px;
+}
+
+.side2{
+	padding: 25px;
+	text-align: center;
+}
+
+
+.side2 h1{
+	background-color: #000;
+}
+
+.blogtitle{
+	color: #797b54;
+}
+
+.book{
+	outline: none;
+	border: none;
+	font-size: 15px;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	border-radius: 8px;
+
+}
+
+
+
+.book:hover {
+	color: #38a302;
+	background-color: #191919;
+}
+
+.blogsidepic {
+	max-width: 200px;
+	height: auto;
+}
+
+
+.blogtitle {
+	color: #797b54;
+}
+
+
+
+footer{
+	color: #000;
+	text-align: left;
+	margin-bottom: 100px;
+
+}
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+	background-color: #fff;
+	padding: 10px;
+}
+
+.footer-1 {
+	flex: 25%;
+}
+.footer-1 a:hover {
+	opacity: 0.6;
+}
+.button-footer {
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #191919;
+}
+.button-footer:hover {
+	color: #38a302;
+}
+
+.footer-2 {
+	flex: 45%;
+}
+
+.footer-3 {
+	flex: 15%;
+}
+
+.footer-4 {
+	flex: 15%;
+}
+
+.conform {
+	outline: none;
+	border-radius: 8px 8px;
+	background-color: #191919;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
