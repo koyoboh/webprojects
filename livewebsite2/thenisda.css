@@ -1,0 +1,465 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	 font-family: 'Jura', sans-serif;
+	 font-size: 16px;
+
+}
+
+.darkmode {
+	background-color: #000;
+	color: #e1e1e1; /*cddb2a;*/
+	
+
+}
+
+.topnav{
+	overflow: hidden;
+	background-color: #000;
+
+}
+
+.topnav a{
+	text-align: left;
+	text-decoration: none;
+	padding: 15px 15px;
+	display: block;
+	float: left;
+	font-size: 20px;
+	color: #e1e1e1;
+}
+
+.topnav  .dropdown .dropbtn{
+	color: #ffcc00 ; /*0a0a0a*/
+}
+.topnav a:hover {
+	color: #ffcc00;/*#cddb2a*/
+}
+
+.topnav a.active{
+	
+	background-color: #000;
+	color: #ffcc00;/*#cddb2a*/
+	
+}
+
+.topnav a.active:hover{
+	color: #fff;
+	background-color: #0a0a0a;
+}
+
+.topnav .icon{
+	display: none;
+}
+
+.dropdown {
+	overflow: hidden;
+	float: left;
+}
+
+.dropdown .dropbtn{
+	margin: 0;
+	outline: none;
+	border: none;
+	padding: 15px 15px;
+	font-size: 20px;
+	font-family: inherit;
+	background-color: #000;
+}
+
+.dropdown-content {
+	min-width: 160px;
+	z-index: 3;
+	box-shadow: 0px, 5px, 10px, 0;
+	display: none;
+	position: absolute;
+}
+
+.dropdown-content a{
+	float: none;
+	text-align: left;
+	text-decoration: none;
+	padding: 15px 15px;
+	display: block;
+	color: #000;
+	background-color: #ffcc00; /*cddb2a*/
+}
+
+.dropdown-content a:hover{
+	color: #ffcc00; /*#cddb2a;*/
+	background-color: #0a0a0a;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+@media screen and (max-width: 700px) {
+	.topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
+	.topnav a.icon{display: block; float: right;}
+}
+
+@media screen and (max-width: 700px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.topnav.responsive a{
+		display: block;
+		text-align: left;
+		float: none;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn{
+		width: 100%;
+		text-align: left;
+		display: block;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+	.row ,  .footer-row , .beats {
+		display: block;
+		flex-direction: column;
+	}
+}
+
+
+.forbeats{
+	
+	background-color: #fff;
+	color: #000;
+	
+	margin-top: 0;
+}
+
+.beats{
+	display: flex;
+	flex-wrap: wrap;
+
+
+	
+}
+
+
+
+.b1{
+flex: 25%;
+float: right;
+text-align: center;
+padding: 10px;
+border: 3px solid #191919;
+border-radius: 10px;
+
+
+
+}
+
+
+
+.b2{
+flex: 25%;
+float: right;
+text-align: center;
+padding: 10px;
+border: 3px solid #191919;
+border-radius: 10px;
+
+}
+.b3{
+flex: 25%;
+float: right;
+text-align: center;
+padding: 10px;
+border: 3px solid #191919;
+border-radius: 10px;
+
+}
+.b4{
+flex: 25%;
+float: right;
+text-align: center;
+padding: 10px;
+border: 3px solid #191919;
+border-radius: 10px;
+
+}
+
+.row p{
+	padding: 5px;
+}
+
+
+
+.toplogo{
+	width: 250px;
+	height: auto;
+	padding: 15px 15px;
+	margin: 0;
+
+}
+.navbar{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.stickynav{
+	margin-top: 30px;
+}
+
+
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+
+.darkMode{
+
+	border-radius: 8px;
+	border: 1px solid #fff;
+	background-color: #000;
+	color: #ffcc00;
+	
+}
+
+
+.del{
+	color: #fff;
+}
+
+.innerpic{
+	width: 100%;
+	height: auto;
+}
+
+.inner-a{
+	text-decoration: none;
+	color: #990000;
+}
+.inner-a:hover{
+	opacity: 0.7;
+}
+
+
+.main{
+	flex: 30%;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.side1{
+	flex: 40%;
+	padding: 10px;
+	float: right;
+	text-align: center;
+	
+}
+
+.side2{
+	flex: 30%;
+	padding: 10px;
+	float: right;
+	text-align: center;
+	
+}
+
+
+
+.myAudio{
+	position: fixed;
+	top: 0;
+    filter: drop-shadow(8px 8px 10px gray) invert(100%);
+    z-index: 3;
+
+}
+
+.forplayer{
+	padding: 20px;
+	margin: 20px;
+}
+
+.adp{
+	filter: drop-shadow(8px 8px 10px gray) invert(100%);
+	margin: 0;
+
+}
+.myAudio2{
+
+    filter: drop-shadow(8px 8px 10px gray) invert(100%);
+
+}
+.audiolists{
+	z-index: -1;
+	
+
+}
+
+.audioButton{
+	background-color: #fff;
+	color: #000;
+	border: 2px solid #e1e1e1;
+	cursor: pointer;
+	padding: 10px 10px;
+	border-radius: 5px;
+
+}
+
+.audioButton:hover{
+	
+	opacity: 0.8;
+
+
+
+}
+
+.audioButtonHide{
+	background-color: #990000;
+	color: #e1e1e1;
+	border: 2px solid #000;
+	cursor: pointer;
+	padding: 10px 10px;
+	border-radius: 5px;
+
+}
+
+.audioButtonHide{
+	opacity: 0.9;
+}
+
+.myVideo{
+	position: static;
+	
+	overflow: hidden;
+	width: 100%;
+
+}
+
+
+.youtube{
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+	padding-top: 56.25%;
+	
+}
+
+.y-iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width:100%;
+	height: 100%;
+}
+
+.videobutton{
+	font-size: 15px;
+	border: none;
+}
+
+.videobutton:hover{
+	color: #000;
+
+}
+.sideImage{
+	width: 100%;
+	height: auto;
+	
+}
+
+
+.gform{
+	height: auto;
+	width: 100%;
+}
+.sp{
+	text-decoration: none;
+
+}
+
+.mediaLogos{
+		background-repeat: no-repeat;
+		background-size: contain;
+		color: #fff;
+		max-width: 100px;
+		height: auto;
+		padding: 10px;
+
+}
+
+#Socials:hover{
+
+	opacity: 0.6;
+
+}
+
+
+
+.footer-a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+.footer-music-link:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+
+
+.footer{
+	background-color: #fff;
+	color: #000;
+	padding: 25px;
+	margin-top: 0;
+}
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.footer-social{
+	flex: 25%;
+	float: left;
+
+}
+.footer-music{
+	flex: 25%;
+	text-align: left;
+
+
+}
+
+.footer-new{
+	flex: 25%;
+	text-align: left;
+
+
+}
+
+
+
+.footer-contact{
+	flex: 25%;
+	text-align: left;
+
+}
+
