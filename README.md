@@ -18,7 +18,7 @@ Waist To Hip Ratio WHR,
 
 
 THR
-Your maximum heart rate is about 220 minus your age. In the age category closest to yours, read across to find your target heart rates. Target heart rate during moderate intensity activities is about 50-70% of maximum heart rate, while during vigorous physical activity it’s about 70-85% of maximum. Src. heart.org
+Your maximum heart rate is about 220 minus your age. In the age category closest to yours. Target heart rate during moderate intensity activities is about 50-70% of maximum heart rate, while during vigorous physical activity it’s about 70-85% of maximum. Src. heart.org
 
 BMI
 Body mass index is a value derived from the mass and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m², resulting from mass in kilograms and height in metres. Src. Wikipedia
