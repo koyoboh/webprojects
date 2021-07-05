@@ -24,6 +24,6 @@ BMI.
 Body mass index is a value derived from the mass and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m², resulting from mass in kilograms and height in metres. Src. Wikipedia
 
 WHR.
-WHR measures the ratio of your waist circumference to your hip circumference. It determines how much fat is stored on your waist, hips, and buttocks.
+Waist to hip ratio (WHR) measures the ratio of your waist circumference to your hip circumference. It determines how much fat is stored on your waist, hips, and buttocks.
 
 Please see the python/tkinter folder for codes and images
