@@ -30,7 +30,7 @@
 
 
 
-
+<!-- Social media links -->
 
 	<div class="sociallinks">	
 			<p>
@@ -44,6 +44,8 @@
 		 	</p>
 		</div>
 
+	
+<!-- nav bar -->
 
 
 <div class="row">
@@ -55,6 +57,8 @@
 		<li>2020</li>
 		
 	</div>
+	
+<!-- Page content -->
 
 	<div class="main">
 		<h1>The Best Service</h1>
@@ -98,6 +102,9 @@
 
 </div>
 <div class="bottom">Footer</div>
+
+
+<!-- Footer -->
 <footer>
 
 
