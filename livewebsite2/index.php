@@ -16,14 +16,19 @@
 	<title>Thenisda World</title>
 </head>
 
+<!-- header logo -->
+
 <div style="background-color: #000;">
 	<a href="index.php"><img src="image/sft2.png" alt="thenisda logo" class="toplogo"></a>
 </div>
 
+	
+<!-- body -->
+
 <body>
 
 
-
+<!-- nav bar -->
 	
 			<div class="topnav" id="myTopnav">
 				
@@ -46,7 +51,7 @@
 
 		</div>
 	
-
+<!-- javascript -->
 	<script>
 		function myMenu(){
 			var x = document.getElementById("myTopnav");
@@ -61,6 +66,8 @@
 
 
 	</script>
+	
+<!-- side banner -->
 	<div class="sdsBanner"
 		style="position: sticky; top: 0; 
 		position: -webkit-sticky;
@@ -104,7 +111,7 @@
 	
 	
 	
-	
+<!-- script to change body to light or dark mode -->
 	<script>
 		function darkMode(){
 			var l = document.getElementById("light");
@@ -129,7 +136,7 @@
 
 	</script>
 	
-
+<!-- music content -->
 
 <div class="beats" >
 
