@@ -11,10 +11,10 @@ Due to my knowledge with SQL-Server, I like to incorporate databases it into my 
 I use a less powerful SQLite3 on this occasion for its assimilation with Tkinter.
 I created some important fitness related web applications:
 
-Physical Activity Readiness Questionnaire - PAR-Q Form
-Target Heart Rate THR
-Body Mass Index BMI
-Waist To Hip Ratio WHR
+Physical Activity Readiness Questionnaire - PAR-Q Form, 
+Target Heart Rate THR, 
+Body Mass Index BMI, 
+Waist To Hip Ratio WHR, 
 
 
 THR
