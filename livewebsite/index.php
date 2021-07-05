@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<!-- header -->
 <head>
 	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a75efb87-b197-4804-89a5-a42b64c7d473" data-blockingmode="auto" type="text/javascript"></script>
 	<meta charset="utf-8">
@@ -15,7 +16,7 @@
 
 </head>
 <body>
-	<header></header>
+	<!-- nav bar -->
 	
 	
 	<a href="index.php"><img src="image/strencardiowhite.png" class="headerlogo"  alt="strencaridio logo" >  </a>
@@ -65,6 +66,9 @@
 				</small>
 
 	</div>
+	
+	<!-- Six-week Banner -->
+	
 	<div class="sixp" style="background-color: #fff; color: #000; text-align: center;"><a href="page/sixweekprogram.php">Sign Up For My Six 6 Week Online Program?</a> </div>
 	<img src="image/rx3.png" alt="image"  style="width: 100%; height: auto;">
 	<img src="image/divpark3.png" alt="image"  style="width: 100%; height: auto;">
@@ -75,6 +79,7 @@
 
 
 
+	<!-- Page contents -->
 	<div class="row">
 		<div class="side">
 			<img src="image/divptm2.png" alt="group image" class="innerpic"  style="max-width: 75%; height: auto;"> <br>
@@ -144,7 +149,7 @@
 			
 
 
-			<!--Segments-->
+			<!--nutrition contents-->
 
 			<h1>Nutrition</h1>
 			<h4>Nutrition And Wellness Counselling </h4>
@@ -155,11 +160,9 @@
 
 			</p>
 				<a href="page/contact.php" class="innerlink">Free Consultation <i class='fa fa-envelope'></i></a>
+				
 
-			<!--Segments-->
-
-
-			
+			<!--kids fitness contents-->
 
 			<h1>STRENcardio Kids Fitness</h1>
 			<h4>Child Obesity </h4>
@@ -177,7 +180,7 @@
 			</p>
 				<a href="page/contact.php" class="innerlink">Free Consultation <i class='fa fa-envelope'></i></a>
 
-			<!--Segments-->
+			<!--weight loss contents-->
 
 			<h1>Weight Loss</h1>
 			<h4>STRENcardio 6-WEEK Weight Loss Program</h4>
@@ -199,7 +202,8 @@
 
 			
 			 <br>
-			 <!--Segments-->
+				
+			 <!--shop content-->
 
 			 <h1>SHOP</h1>
 			<h4>FREE UK DELIVERY </h4>
@@ -242,6 +246,9 @@
 
 
 	<div><H1>Your Health Is Your Greatest Asset</H1></div>
+	
+	
+	<!-- footer -->
 
 	<footer>
 		<div class="footer-row">
