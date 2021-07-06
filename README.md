@@ -1,11 +1,14 @@
-# webprojects
+## webprojects
+![kprojects](https://user-images.githubusercontent.com/67437693/124674764-426ec500-deb3-11eb-9b6b-74ef2a455f52.png)
+
+
 Static Web templates using pure HTML5, CSS3 and Javascript.
 Refer to the folder, "../websiteimages" to see photos.
 For live website, please visit:
 https://www.strencardio.co.uk
 https://www.thenisda.com
 
-#webapplications,   
+##webapplications,   
 I used Python, Tkinter and SQL for this applications.
 Due to my knowledge with SQL-Server, I like to incorporate databases it into my projects.
 I use a less powerful SQLite3 on this occasion for its assimilation with Tkinter.
