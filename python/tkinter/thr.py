@@ -18,12 +18,13 @@ c.execute("""
 		)""")
 '''
 
-#creat Frame
+#create a Frame
 
 frame = LabelFrame (root, text='Target Heart Rate Calculator', font=(20), bg="#a9afb7", fg="#2a374b")
 frame.grid(row=0, column=0, ipadx=25, ipady=35, pady=35, padx=35)
 
 
+#formula to calculate Maximum heart rate
 def mhr():
 	
 	query = 220 - int(age_entry.get())
@@ -69,7 +70,7 @@ def delete():
 	db.close()
 '''
 	
-#query
+#save data into the taable_template database
 def save():
 	db = sqlite3.connect("table_template.db")
 	c = db.cursor()
@@ -89,7 +90,7 @@ def save():
 	db.close()
 	
 
-#reset
+#reset entries
 def reset():
 	db =sqlite3.connect("table_template.db")
 	c =db.cursor()
@@ -102,7 +103,7 @@ def reset():
 	db.commit()
 	db.close()
 
-#show
+#show query
 def show():
 	db =sqlite3.connect("table_template.db")
 	c =db.cursor()
@@ -129,19 +130,19 @@ def show():
 
 	
 
-
+#entries
 
 name_entry = Entry(frame, width=30, bg="#a9afb7", fg="#191919")
 name_entry.grid(row=0, column=1, padx=10, pady=10, ipadx=10, sticky=EW)
 age_entry = Entry(frame, width=30, bg="#a9afb7", fg="#191919")
 age_entry.grid(row=1, column=1, padx=10, pady=10, ipadx=10, sticky=EW)
 
-
+#labels
 name_label = Label(frame, text='Name: ')
 name_label.grid(row=0, column=0, padx=10, pady=10, ipadx=10, sticky=EW)
 age_label = Label(frame, text='Age: ')
 age_label.grid(row=1, column=0, padx=10, pady=10, ipadx=10, sticky=EW)
-
+#buttons
 mhr_button = Button(frame, text="Calculate Maximum Heart Rate", command=mhr, bg="#2a374b", fg="#fff")
 mhr_button.grid(row=2, column=0, padx=10, pady=10, ipadx=10, sticky=EW)
 
