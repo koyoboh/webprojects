@@ -5,7 +5,7 @@ For live website, please visit:
 https://www.strencardio.co.uk
 https://www.thenisda.com
 
-#web applications
+#webapplications,   
 I used Python, Tkinter and SQL for this applications.
 Due to my knowledge with SQL-Server, I like to incorporate databases it into my projects.
 I use a less powerful SQLite3 on this occasion for its assimilation with Tkinter.
