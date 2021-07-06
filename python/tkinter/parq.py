@@ -62,7 +62,7 @@ def submit():
 	
 	
 
-	#for loop
+	# create a for loop
 	for r in records:
 		paqr += str(r) +"\t"
 		if q1.get() == 'Yes':
@@ -146,7 +146,7 @@ def submit():
 
 
 
-
+	#submit button
 	submit_label =Label(frame, text=paqr,  bg="#808c93", fg="#fff")
 	submit_label.grid(padx=10, pady=10)
 
@@ -157,7 +157,7 @@ def submit():
 	#commit
 	db.commit()
 
-	#close
+	#close 
 	db.close()
 
 	q1.delete(0, END)
@@ -168,8 +168,7 @@ def submit():
 	q6.delete(0, END)
 	q1.focus()
 
-	#insert questions
-	#q1.insert(0, q1.get())
+	
 
 	
 
@@ -230,11 +229,11 @@ q5_label.grid(row=4, column=0, sticky=W)
 q6_label = Label(frame, text="6: Do you know any reason you shouldn't participate in physical exercise? YES/NO", bg="#808c93", fg="#e9ebed", font=(12))
 q6_label.grid(row=5, column=0, sticky=W)
 
-
+#create submit button
 submit_button = Button(frame, text="Submit", command=submit, bg="#808c93", fg="#e9ebed", font=(12))
 submit_button.grid(row=6, column=0, sticky=EW)
 
-#create reset
+#create reset  button
 q_button = Button(frame, text="Quit App", command=lambda: root.quit(), bg="#fff", fg="#808c93", font=(12))
 q_button.grid(row=19, column=0, sticky=EW)
 
