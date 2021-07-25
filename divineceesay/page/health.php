@@ -18,7 +18,7 @@
 </head>
 	
 
-<div class="banner-image">
+<!--<div class="banner-image">
 			<a href="../index.php">   <img src="../image/dc1.png" alt="image" style="	background-color: #282d33;
 				background-repeat: no-repeat;
 				width: 10%;
@@ -28,7 +28,14 @@
 			</a>
 		
 </div>
-<h5>DIVINE CEESAY | Web Developer | Web Designer | SQL Server DBA | Personal Trainer | Nutrition and Wellness Consultant</h5>
+<h5>DIVINE CEESAY | <small style="color: #fff;" >
+	<a href="../page/webdesign.php" class="desc">Web Developer</a>| 
+	<a href="../page/webdesign.php" class="desc">Web Designer</a>| 
+	<a href="../page/python.php" class="desc">SQL Server DBA</a>| 
+	<a href="../page/health.php" class="desc">Personal Trainer</a>| 
+	<a href="../page/health.php" class="desc">Nutrition and Wellness Consultant</a></small>
+</h5>-->
+
 
 <body>
 
@@ -39,19 +46,20 @@
 		
 
 		
-		<a href="../index.php" class="active">Home</a>
+		<a href="../index.php" >Home</a>
 		<a href="../page/aboutme.php">About Me</a>
-		
-	
+		<a href="../page/python.php">Python Projects</a>
+		<a href="../page/webdesign.php">Web Design Projects</a>
+		<a href="../page/logo.php">Logo Design</a>
+		<a href="../page/health.php"class="active">Fitness and Nutrition</a>
+		<a href="../page/contact.php">Contact</a>
 			<div class="dropdown">
-			<button class="dropbtn"><em>Portfolio</em> <i class="fa fa-caret-down"></i></button>
+			<button class="dropbtn"><em>More</em> <i class="fa fa-caret-down"></i></button>
 			<div class="dropdown-content">
-				<a href="../page/python.php">Python Projects</a>
-				<a href="../page/webdesign.php">Web Design Projects</a>
-				<a href="../page/logo.php">Logo Design</a>
-				<a href="../page/health.php">Fitness and Nutrition</a>
-				<a href="../page/resume.php">Resume</a>
-				<a href="../page/contact.php">Contact</a>
+				
+				
+				<a href="../page/resume.php">CV</a>
+				
 				
 			</div>
 			
@@ -81,6 +89,7 @@
 	</script>
 	
 	
+	
 
 
 
@@ -89,31 +98,32 @@
 <header class="header">
 	<small>
 					<a href="https://www.facebook.com/designsbykoyoboh" class="fa fa-facebook" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;" ></a>
+				color: #fff; margin: 5px 2px;" ></a>
 				<a href="https://www.instagram.com/koyoboh" id="socials" class="fa fa-instagram" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="https://www.twitter.com/koyoboh" class="fa fa-twitter" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="../page/contact.php" class="fa fa-envelope" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 
 					
 				</small>
 	
 			
 </header>
-<div class="banner"><small>Health and Fitness </small></div>
+<div class="banner"><small>Wellness </small></div>
 
 
 <div class="row">
 	<div class=" side">
 		
 
-		<h1 style="color: #fff;"> Fitness website designed by me with just HTML5, JavaScript and CSS3</h1>
+		<!--<h1 > </h1>-->
 
 		<img src="../image/ssg.png" alt="image" class="content-image2"><br>
-		<img src="../image/trifecta.png" alt="image" class="content-image">
-		<h5>Creating Professional Responsive Websites</h5>
+		<small style="color: #fff;"> Fitness website designed by me with just HTML5, JavaScript and CSS3</small><br>
+		<!--<img src="../image/trifecta.png" alt="image" class="content-image">-->
+		<h5>Strength Endurance and Cardio Training</h5>
 		<p>
 			STRENcardio is a lifestyle that promotes Health and Fitness. Whether you lack motivation, the desire to be physically active or you are simply unhappy about your health. Always take this into consideration, It is never too late to start making changes to your way of life and alter bad habits. <br>
 			With over 12 years experience in the wellness industry, STRENcardio Health & Fitness is the right destination for you. Our programs will be customized to you based on your fitness goals and nutrition needs.
@@ -141,7 +151,8 @@
 		<p style="background-color: #1a1a1a; color: #140e0e;">
 			<a href="https://github.com/koyoboh/webprojects"class="pagelink" style="color: #f7c53c;"  ><small>"This website is actually built with just HTML5,JavaScript and CSS3. Click text to see codes on Github"</small></a> <br><br>
 		</p>
-		<button onclick="seeMore()"  class="seemore"> Hide  Photo</button><br><br>
+
+		<!--<button onclick="seeMore()"  class="seemore"> Hide  Photo</button><br><br>
 
 								<div id="getseemore"  class="seemore-content">
 									<a href="../page/webdesign.php">   <img src="../image/dc2.png" style="	background-color: #282d33;
@@ -166,7 +177,7 @@
 
 	
 
-		</script>
+		</script>-->
 		
 	</div>
 	
@@ -185,7 +196,7 @@
 <div class="footer-row">
 
 	<div class="f1">
-		<h5>Resume</h5>
+		<h5>CV</h5>
 		<p><i class="fa fa-hand-o-down" aria-hidden="true" style="font-size: 20px"></i>
 		</p>
 

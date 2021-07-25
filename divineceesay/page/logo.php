@@ -18,7 +18,7 @@
 </head>
 	
 
-<div class="banner-image">
+<!--<div class="banner-image">
 			<a href="../index.php">   <img src="../image/dc1.png" alt="image" style="	background-color: #282d33;
 				background-repeat: no-repeat;
 				width: 10%;
@@ -28,7 +28,14 @@
 			</a>
 		
 </div>
-<h5>DIVINE CEESAY | Web Developer | Web Designer | SQL Server DBA | Personal Trainer | Nutrition and Wellness Consultant</h5>
+<h5>DIVINE CEESAY | <small style="color: #fff;" >
+	<a href="../page/webdesign.php" class="desc">Web Developer</a>| 
+	<a href="../page/webdesign.php" class="desc">Web Designer</a>| 
+	<a href="../page/python.php" class="desc">SQL Server DBA</a>| 
+	<a href="../page/health.php" class="desc">Personal Trainer</a>| 
+	<a href="../page/health.php" class="desc">Nutrition and Wellness Consultant</a></small>
+</h5>-->
+
 
 <body>
 
@@ -39,19 +46,20 @@
 		
 
 		
-		<a href="../index.php" class="active">Home</a>
+		<a href="../index.php" >Home</a>
 		<a href="../page/aboutme.php">About Me</a>
-		
-	
+		<a href="../page/python.php">Python Projects</a>
+		<a href="../page/webdesign.php">Web Design Projects</a>
+		<a href="../page/logo.php"class="active">Logo Design</a>
+		<a href="../page/health.php">Fitness and Nutrition</a>
+		<a href="../page/contact.php">Contact</a>
 			<div class="dropdown">
-			<button class="dropbtn"><em>Portfolio</em> <i class="fa fa-caret-down"></i></button>
+			<button class="dropbtn"><em>More</em> <i class="fa fa-caret-down"></i></button>
 			<div class="dropdown-content">
-				<a href="../page/python.php">Python Projects</a>
-				<a href="../page/webdesign.php">Web Design Projects</a>
-				<a href="../page/logo.php">Logo Design</a>
-				<a href="../page/health.php">Fitness and Nutrition</a>
-				<a href="../page/resume.php">Resume</a>
-				<a href="../page/contact.php">Contact</a>
+				
+				
+				<a href="../page/resume.php">CV</a>
+				
 				
 			</div>
 			
@@ -81,6 +89,7 @@
 	</script>
 	
 	
+	
 
 
 
@@ -89,20 +98,20 @@
 <header class="header">
 	<small>
 					<a href="https://www.facebook.com/designsbykoyoboh" class="fa fa-facebook" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;" ></a>
+				color: #fff; margin: 5px 2px;" ></a>
 				<a href="https://www.instagram.com/koyoboh" id="socials" class="fa fa-instagram" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="https://www.twitter.com/koyoboh" class="fa fa-twitter" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="../page/contact.php" class="fa fa-envelope" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 
 					
 				</small>
 	
 			
 </header>
-<div class="banner"><small>Logos </small></div>
+<div class="banner"><small>Personalised Logos </small></div>
 
 
 <div class="row">
@@ -121,8 +130,8 @@
 				<small>Logos done with CorelDraw</small><br><br>
 				<small>The foundation of your brand is a strong, solid and memorable logo that grabs attention. A Logo is an important part of a company's public image and is one of the most important branding investment.</small><br><br>
 				<img src="../image/cd.png" alt="image" class="content-image2"><br>
-				<small>BMI Calculator</small>
-				<a href="https://github.com/koyoboh/webprojects"class="pagelink" style="color: #f7c53c;"  >"See Python Codes"</a> <br>
+				<small>Waist-to-Hip Ratio Calculator</small>
+				<a href="https://github.com/koyoboh/webprojects/blob/main/python/tkinter/wth.py"class="pagelink" style="color: #f7c53c;"  >"See Python Codes"</a> <br>
 			</div>
 
 			<i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="../page/resume.php" class="pagelink">See Resume</a><br>
@@ -155,7 +164,7 @@
 <div class="footer-row">
 
 	<div class="f1">
-		<h5>Resume</h5>
+		<h5>CV</h5>
 		<p><i class="fa fa-hand-o-down" aria-hidden="true" style="font-size: 20px"></i>
 		</p>
 

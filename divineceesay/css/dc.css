@@ -9,7 +9,7 @@
 body {
 	
 	color: #c19c6f;
-	background-color: #1a1a1a;
+	background-color: #000;
 	max-width: 100%;
 	left: 0;
 	bottom: 0;
@@ -26,12 +26,23 @@ h3 {
 }
 /* Styling page header */
 header{
-	background-color: #fff;
-	color: #1a1a1a;
+	background-color: #1a1a1a;
+	color: #000;
 	text-align: left;
 	position: sticky; top: 0px;
 }
 header a:hover{
+	opacity: 0.6;
+}
+
+/*styling DC Description*/
+h5 a{
+	background-color: #000;
+	color:#c19c6f;
+	text-decoration: none;
+}
+
+h5 a:hover{
 	opacity: 0.6;
 }
 
@@ -54,8 +65,9 @@ header a:hover{
 }
 /* Styling banner */
 .banner {
-	background-color: #fff;
-	color: #000;
+	background-color: #1a1a1a;
+	
+	color: #c19c6f;
 	text-align: left;
 	font-size: 20px;
 	padding: 15px;
@@ -101,7 +113,7 @@ header a:hover{
 .topnav {
 	overflow: hidden;
 	/*background-color: #030606;*/
-	background-color: #fff;
+	background-color: #1a1a1a;
 	color: #07080c;
 
 
@@ -120,19 +132,21 @@ header a:hover{
 }
 
 .topnav a:hover, .dropdown .dropbtn{
-	color:  #fff;
-	background-color: #030606;
+	color:  #c19c6f;
+	background-color: #1a1a1a;
 
 }
 
 .topnav a.active{
-	background-color: #07080c;
-	color: #fff;
+	background-color: #fff;
+	color: #1a1a1a;
+	
 
 }
 .topnav a.active:hover {
-	background-color: #fff;
-	color: #282d33;
+	/*background-color: #000;
+	color: #f7c53c;*/
+	opacity: 0.6;
 
 	
 }
@@ -154,8 +168,8 @@ header a:hover{
 	padding: 15px 15px;
 	font-size: 20px;
 	font-family: inherit;
-	background-color: #fff;
-	color: #000;
+	background-color: #1a1a1a;
+	color: #f7c53c;
 }
 
 .dropdown-content {
@@ -173,12 +187,13 @@ header a:hover{
 	text-decoration: none;
 	padding: 15px 15px;
 	display: block;
-	background-color: #030606;
+	background-color: #1a1a1a;
 	color: #7a8c8a;
 }
 
 .dropdown-content a:hover{
 	color: #fff;
+	background-color: #1a1a1a;
 
 }
 
@@ -232,14 +247,14 @@ header a:hover{
 	opacity: 0.6;
 }
 
-/* styling contents */
+/* styling contents background-color: #282d33;*/
 .row {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 30px;
-	background-color: #000;
+	background-color: #1a1a1a;
 	
-	background-color: #282d33;
+	
 	text-align: center;
 
 	color: #fff;
@@ -326,6 +341,7 @@ h3 {
 	font-size: 30px;
 	text-align: left;
 	padding: 20px;
+
 	
 }
 
@@ -346,7 +362,7 @@ h3 {
 	flex-wrap: wrap;
 	
 	
-	background-color: #1a1a1a;
+	background-color: #000;
 }
 
 .footer-row h5 {

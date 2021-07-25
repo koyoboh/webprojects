@@ -18,7 +18,7 @@
 </head>
 	
 
-<div class="banner-image">
+<!--<div class="banner-image">
 			<a href="index.php">   <img src="image/dc1.png" alt="image" style="	background-color: #282d33;
 				background-repeat: no-repeat;
 				width: 10%;
@@ -27,8 +27,21 @@
 				background-size: cover;">			
 			</a>
 		
-</div>
-<h5>DIVINE CEESAY | Web Developer | Web Designer | SQL Server DBA | Personal Trainer | Nutrition and Wellness Consultant</h5>
+</div>-->
+
+<h5 style="text-align: center;"><a href="index.php">   <img src="image/dcplain.png" alt="image" style="	background-color: #000;
+				background-repeat: no-repeat;
+				width: 10%;
+				height: auto;
+				
+				background-size: cover;">			
+			</a>   | <small style="color: #fff;" >
+	<a href="page/webdesign.php" class="desc">Web Developer</a>| 
+	<a href="page/webdesign.php" class="desc">Web Designer</a>| 
+	<a href="page/python.php" class="desc">SQL Server DBA</a>| 
+	<a href="page/health.php" class="desc">Personal Trainer</a>| 
+	<a href="page/health.php" class="desc">Nutrition and Wellness Consultant</a></small>
+</h5>
 
 <body>
 
@@ -41,17 +54,18 @@
 		
 		<a href="index.php" class="active">Home</a>
 		<a href="page/aboutme.php">About Me</a>
-		
-	
+		<a href="page/python.php">Python Projects</a>
+		<a href="page/webdesign.php">Web Design Projects</a>
+		<a href="page/logo.php">Logo Design</a>
+		<a href="page/health.php">Fitness and Nutrition</a>
+		<a href="page/contact.php">Contact</a>
 			<div class="dropdown">
-			<button class="dropbtn"><em>Portfolio</em> <i class="fa fa-caret-down"></i></button>
+			<button class="dropbtn"><em>More</em> <i class="fa fa-caret-down"></i></button>
 			<div class="dropdown-content">
-				<a href="page/python.php">Python Projects</a>
-				<a href="page/webdesign.php">Web Design Projects</a>
-				<a href="page/logo.php">Logo Design</a>
-				<a href="page/health.php">Fitness and Nutrition</a>
-				<a href="page/resume.php">Resume</a>
-				<a href="page/contact.php">Contact</a>
+				
+				
+				<a href="page/resume.php">CV</a>
+				
 				
 			</div>
 			
@@ -90,13 +104,13 @@
 <header class="header">
 	<small>
 					<a href="https://www.facebook.com/designsbykoyoboh" class="fa fa-facebook" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;" ></a>
+				color: #fff; margin: 5px 2px;" ></a>
 				<a href="https://www.instagram.com/koyoboh" id="socials" class="fa fa-instagram" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="https://www.twitter.com/koyoboh" class="fa fa-twitter" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 				<a href="page/contact.php" class="fa fa-envelope" id="socials" style="font-size: 30px; text-decoration: none; padding: 10px 10px;
-				color: #191919; margin: 5px 2px;"></a>
+				color: #fff; margin: 5px 2px;"></a>
 
 					
 				</small>
@@ -116,7 +130,7 @@
 		<h5>Creating Professional Responsive Websites</h5>
 		<p>
 			Using the Web development trifecta technologies to create beautiful responsive websites that easily adapts to smartphones, tablets, gaming devices, smart TVs and also traditional PCs. <br>
-			  <a href="https://github.com/koyoboh/webprojects"class="pagelink" style="color: #f7c53c;"  >"This website is actually built with just HTML5,JavaScript and CSS3. Click text to see codes on Github"</a> <br>
+			  <a href="https://github.com/koyoboh/webprojects/tree/main/divineceesay"class="pagelink" style="color: #f7c53c;"  >"This website is actually built with just HTML5,JavaScript and CSS3. Click text to see codes on Github"</a> <br>
 			  <i class="fa fa-arrow-right" aria-hidden="true"></i>  <a href="page/webdesign.php" class="pagelink">See Web Designs</a>
 		</p> <br><br>
 
@@ -165,7 +179,7 @@
 			A fast learner, passionate and creative individual. I used my Web development skills and created health and fitness websites, blog sites, personal websites, business websites, flyers and logos amongst others. <br><br>
 			A firm believer in acquiring new skills for personal development. We are now living in a world where everything will be shifting online and having IT skills is essential for any individual and businesses. <br><br>
 
-			I am very confidence about using my new web development skills to create professional, beautiful, responsive websites and web applications.<br><br>
+			I am very confident about using my new web development skills to create professional, beautiful, responsive websites and web applications.<br><br>
 
 			See some of my recent work below.<br>	
 			<i class="fa fa-arrow-right" aria-hidden="true"></i> <a href="page/webdesign.php" class="pagelink">See Web Designs</a><br>
@@ -223,7 +237,7 @@
 <div class="footer-row">
 
 	<div class="f1">
-		<h5>Resume</h5>
+		<h5>CV</h5>
 		<p><i class="fa fa-hand-o-down" aria-hidden="true" style="font-size: 20px"></i>
 		</p>
 
